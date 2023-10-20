@@ -1,0 +1,23 @@
+.info {
+  width: calc(100% - 3rem);
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1.5rem;
+  z-index: 10000;
+}
+@media (min-width: 1024px) {
+  .info {
+    width: 100%;
+    max-width: 1000px;
+    transform: translateY(50%);
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+}

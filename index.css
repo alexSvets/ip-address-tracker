@@ -12,3 +12,9 @@
 @import url("./blocks/search-bar/search-bar.css");
 @import url("./blocks/search-bar/__input/search-bar__input.css");
 @import url("./blocks/search-bar/__btn/search-bar__btn.css");
+
+/* info */
+@import url("./blocks/info/info.css");
+@import url("./blocks/info/__block/info__block.css");
+@import url("./blocks/info/__block-subtitle/info__block-subtitle.css");
+@import url("./blocks/info/__block-title/info__block-title.css");
