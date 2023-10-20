@@ -1,0 +1,12 @@
+.finder {
+  background: url(../../images/pattern-bg.png);
+  background-size: cover;
+  padding: 2rem 1.5rem 17.5rem;
+  text-align: center;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .finder {
+    padding: 2rem 1.5rem;
+  }
+}

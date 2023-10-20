@@ -1,2 +1,14 @@
 @import url("./vendor/normalize.css");
 @import url("./vendor/fonts/fonts.css");
+@import url("./blocks/root/root.css");
+
+/* finder */
+@import url("./blocks/finder/finder.css");
+
+/* title */
+@import url("./blocks/title/title.css");
+
+/* search-bar */
+@import url("./blocks/search-bar/search-bar.css");
+@import url("./blocks/search-bar/__input/search-bar__input.css");
+@import url("./blocks/search-bar/__btn/search-bar__btn.css");

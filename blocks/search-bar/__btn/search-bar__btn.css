@@ -1,0 +1,23 @@
+.search-bar__btn {
+  background-color: black;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0 1.5rem;
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  cursor: pointer;
+}
+.search-bar__btn:hover {
+  background-color: rgb(77, 77, 77);
+}
+.search-bar__btn::after {
+  display: block;
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: transparent;
+  border: 2px solid;
+  border-color: white white transparent transparent;
+  transform: rotate(45deg);
+}

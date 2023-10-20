@@ -1,0 +1,13 @@
+.search-bar__input {
+  width: 100%;
+  max-width: 500px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 17%);
+  border: none;
+  outline: none;
+  padding: 1.5rem 2rem;
+  border-radius: 10px 0 0 10px;
+  cursor: pointer;
+  background-color: white;
+}
