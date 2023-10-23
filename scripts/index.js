@@ -1,4 +1,4 @@
-import { addTileLayer, getAdress, validatIp } from "./helpers";
+import { addOffset, addTileLayer, getAdress, validatIp } from "./helpers";
 import L from "leaflet";
 import icon from "../images/icon-location.svg";
 
@@ -49,4 +49,11 @@ function setInfo(mapData) {
   L.marker([mapData.location.lat, mapData.location.lng], {
     icon: markerIcon,
   }).addTo(map);
+  if (matchMedia("(max-width: 1023px)").matches) {
+    addOffset(map);
+  }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  getAdress("123.21.12.23").then(setInfo);
+});
